@@ -1,0 +1,16 @@
+# Ignore everything
+/*
+
+# EXCEPT these specific files/folders
+!classes.pkl
+!words.pkl
+!intents.json
+!interface.py
+!tflite_env/
+!templates/
+!static/
+
+# Specifically ignore venv folder
+venv/
+__pycache__/
+*.pyc
