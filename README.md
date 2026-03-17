@@ -1,7 +1,8 @@
 Melly AI Chatbot
 
 A simple chatbot built with Python and TensorFlow Lite, deployed using Flask.
-Features
+
+Features:
 
   Machine learning model trained on custom intents
 
@@ -11,7 +12,7 @@ Features
 
   Real-time chat responses
 
-Tech Stack
+Tech Stack:
 
   Backend: Python, Flask, TensorFlow Lite
 
