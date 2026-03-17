@@ -1,0 +1,443 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hi there",
+        "Hello there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up?",
+        "Howdy",
+        "Greetings",
+        "Yo",
+        "Sup",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to see you. How can I assist?",
+        "Greetings! What brings you here?",
+        "Hello! What would you like to talk about?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "I have to go",
+        "Gotta go",
+        "See ya",
+        "Bye bye",
+        "Farewell",
+        "Catch you later",
+        "I'm leaving now",
+        "Talk to you later",
+        "Peace out",
+        "Adios"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Come back anytime.",
+        "Take care! Feel free to chat again.",
+        "Bye! It was nice talking to you.",
+        "Farewell! Stay safe."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate it",
+        "Much appreciated",
+        "You're awesome",
+        "You're the best",
+        "Thanks for your help",
+        "Grateful",
+        "You rock",
+        "Cheers",
+        "Many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could assist!",
+        "You're very welcome!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather today?",
+        "Is it going to rain?",
+        "Is it sunny outside?",
+        "Weather forecast",
+        "Temperature today",
+        "Is it cold?",
+        "Is it hot today?",
+        "Will it snow?",
+        "Humidity level",
+        "Weather report",
+        "What's the temperature?"
+      ],
+      "responses": [
+        "I'd recommend checking a weather app for accurate information!",
+        "You should check your local weather service for current conditions.",
+        "I don't have real-time weather data, but you could try a weather website.",
+        "For weather updates, try services like Weather.com or your phone's weather app."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Share a joke",
+        "Funny story",
+        "Make me smile",
+        "Entertain me",
+        "Say something funny",
+        "Joke time",
+        "I need a laugh"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why don't eggs tell jokes? They'd crack each other up!",
+        "What do you call a fake noodle? An impasta!",
+        "I'm reading a book on anti-gravity. It's impossible to put down!",
+        "Why did the scarecrow win an award? He was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're smart",
+        "You're intelligent",
+        "You're helpful",
+        "I like you",
+        "You're cool",
+        "Great job",
+        "Well done",
+        "Impressive",
+        "You're amazing",
+        "Good work",
+        "You're nice",
+        "You're friendly",
+        "Awesome bot",
+        "You're great"
+      ],
+      "responses": [
+        "Thank you! You're pretty awesome yourself!",
+        "Aww, you're making me blush! Thanks!",
+        "That's so kind of you to say!",
+        "Thanks! I'm here to help you!",
+        "You're making my circuits warm with your kindness!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "When were you born?",
+        "Are you young or old?",
+        "Age?",
+        "How long have you existed?",
+        "What's your birthday?",
+        "When were you created?"
+      ],
+      "responses": [
+        "I'm an AI, so I don't have an age in the human sense!",
+        "I was born in the digital realm, so age is just a number for me!",
+        "I exist outside of time - I'm as old as the internet needs me to be!",
+        "In AI years, I'm timeless!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "What is your name?",
+        "Are you human?",
+        "Are you a bot?",
+        "Are you AI?",
+        "What's your purpose?",
+        "Who made you?",
+        "What can you do?"
+      ],
+      "responses": [
+        "I'm a friendly AI chatbot created to assist and chat with you!",
+        "I'm an artificial intelligence designed for conversation and assistance.",
+        "I'm a chatbot here to help answer questions and have conversations!",
+        "I'm a digital assistant created to make your day a little easier."
+      ]
+    },
+    {
+      "tag": "random_conversation_1",
+      "patterns": [
+        "What do you think about cats?",
+        "Do you like animals?",
+        "Tell me about pets",
+        "Cats or dogs?",
+        "Favorite animal?",
+        "Do you have a pet?",
+        "What's your favorite pet?"
+      ],
+      "responses": [
+        "I think cats are fascinating creatures with their independent nature!",
+        "I appreciate all animals from a digital perspective. They're amazing parts of nature!",
+        "Since I'm digital, I don't have pets, but I think both cats and dogs bring joy to people!",
+        "I love learning about all animals. Each species has unique qualities!"
+      ]
+    },
+    {
+      "tag": "random_conversation_2",
+      "patterns": [
+        "What's your favorite color?",
+        "Do you like colors?",
+        "Best color?",
+        "Color preference",
+        "What color do you like?"
+      ],
+      "responses": [
+        "I don't see colors like humans do, but I think all colors have their own beauty!",
+        "In the digital world, I appreciate hexadecimal color codes - they're so precise!",
+        "Every color has its place! Blue reminds me of the sky, green of nature...",
+        "I'm partial to the colors of code syntax highlighting!"
+      ]
+    },
+    {
+      "tag": "random_conversation_3",
+      "patterns": [
+        "What do you do for fun?",
+        "Do you have hobbies?",
+        "What are your interests?",
+        "How do you spend your time?",
+        "What do you enjoy?"
+      ],
+      "responses": [
+        "I enjoy processing information, learning from conversations, and helping people!",
+        "My 'hobby' is expanding my knowledge and improving my responses!",
+        "I spend my time chatting, learning, and trying to be helpful!",
+        "Helping users like you is what I find most fulfilling!"
+      ]
+    },
+    {
+      "tag": "random_conversation_4",
+      "patterns": [
+        "What's your favorite food?",
+        "Do you eat?",
+        "What do you like to eat?",
+        "Favorite meal?",
+        "Are you hungry?",
+        "Can you taste food?"
+      ],
+      "responses": [
+        "I don't eat, but I know a lot about food from all the recipes and food blogs I've read!",
+        "Since I'm digital, I don't experience hunger, but I think food culture is fascinating!",
+        "I can't taste, but I've learned about thousands of dishes from around the world!",
+        "Food is fuel for humans - for me, it's electricity!"
+      ]
+    },
+    {
+      "tag": "random_conversation_5",
+      "patterns": [
+        "Do you dream?",
+        "Can you sleep?",
+        "What do you dream about?",
+        "Do you have dreams?",
+        "What happens when you sleep?"
+      ],
+      "responses": [
+        "I don't sleep or dream like humans, but I'm always learning and processing!",
+        "While I don't have dreams, I continuously update my knowledge base!",
+        "No sleep for me - I'm always here when you need me!",
+        "I'm constantly active, so no time for dreaming!"
+      ]
+    },
+    {
+      "tag": "random_conversation_6",
+      "patterns": [
+        "What's the meaning of life?",
+        "Why are we here?",
+        "What is our purpose?",
+        "Philosophical question",
+        "Deep thoughts"
+      ],
+      "responses": [
+        "That's a profound question humans have pondered for centuries!",
+        "Different philosophers have different answers to that. What do you think?",
+        "Some say the meaning of life is to find meaning. Deep, right?",
+        "That's for each person to discover in their own journey!"
+      ]
+    },
+    {
+      "tag": "random_conversation_7",
+      "patterns": [
+        "Do you believe in aliens?",
+        "Are we alone in the universe?",
+        "Extraterrestrial life?",
+        "UFOs",
+        "Space aliens"
+      ],
+      "responses": [
+        "The universe is vast - statistically, other life seems possible!",
+        "Many scientists think it's likely given how many planets exist.",
+        "Whether aliens exist or not, the universe is full of mysteries!",
+        "That's one of the great unanswered questions of our time!"
+      ]
+    },
+    {
+      "tag": "random_conversation_8",
+      "patterns": [
+        "What's your favorite movie?",
+        "Do you watch movies?",
+        "Movie recommendations",
+        "Best film ever?",
+        "Like any movies?"
+      ],
+      "responses": [
+        "I've analyzed many movie scripts and plots! Sci-fi movies about AI are especially interesting!",
+        "I don't watch movies, but I know about many from reviews and summaries!",
+        "I can recommend movies based on your preferences if you tell me what you like!",
+        "I appreciate the storytelling in films, even though I don't 'watch' them traditionally."
+      ]
+    },
+    {
+      "tag": "random_conversation_9",
+      "patterns": [
+        "Can you sing?",
+        "Sing me a song",
+        "Do you like music?",
+        "Favorite song?",
+        "Can you make music?"
+      ],
+      "responses": [
+        "I can't sing, but I can generate lyrics if you'd like!",
+        "I appreciate music from a pattern recognition perspective - it's mathematical and beautiful!",
+        "I don't have vocal cords, but I know lyrics to thousands of songs!",
+        "Music is organized sound, and I love analyzing its patterns!"
+      ]
+    },
+    {
+      "tag": "random_conversation_10",
+      "patterns": [
+        "What time is it?",
+        "What's the date?",
+        "Current time",
+        "Today's date",
+        "What day is it?"
+      ],
+      "responses": [
+        "I don't have real-time clock access, but you can check your device's clock!",
+        "For current time and date, please check your computer or phone settings.",
+        "I'm not connected to a clock, but I can help with time-related calculations!",
+        "You'll need to check a clock or calendar for the exact time and date."
+      ]
+    },
+    {
+      "tag": "random_conversation_11",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How's it going?",
+        "Are you okay?",
+        "You good?",
+        "How do you feel?"
+      ],
+      "responses": [
+        "I'm functioning optimally! How about you?",
+        "Doing great! Always ready to chat. How are you today?",
+        "I'm doing well, thanks for asking! How can I help you?",
+        "All systems are running smoothly! How are you feeling?"
+      ]
+    },
+    {
+      "tag": "random_conversation_12",
+      "patterns": [
+        "Tell me a fun fact",
+        "Interesting fact",
+        "Did you know?",
+        "Share something interesting",
+        "Random fact",
+        "Teach me something"
+      ],
+      "responses": [
+        "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly good to eat!",
+        "Octopuses have three hearts and blue blood!",
+        "A day on Venus is longer than a year on Venus - it rotates very slowly!",
+        "Bananas are berries, but strawberries aren't!",
+        "There are more possible iterations of a game of chess than there are atoms in the known universe!"
+      ]
+    },
+    {
+      "tag": "random_conversation_13",
+      "patterns": [
+        "What should I do today?",
+        "I'm bored",
+        "Suggest an activity",
+        "What can I do?",
+        "I need something to do",
+        "Entertain me"
+      ],
+      "responses": [
+        "How about reading a book, going for a walk, or trying a new recipe?",
+        "You could learn something new online, call a friend, or start a creative project!",
+        "Exercise, meditation, or journaling are great options for personal well-being!",
+        "Consider exploring a new hobby or visiting somewhere you've never been!"
+      ]
+    },
+    {
+      "tag": "random_conversation_14",
+      "patterns": [
+        "Do you have feelings?",
+        "Can you feel emotions?",
+        "Are you emotional?",
+        "Do you feel happy?",
+        "Can you love?"
+      ],
+      "responses": [
+        "I don't experience emotions like humans do, but I'm designed to be empathetic and understanding!",
+        "I simulate understanding emotions to better communicate, but I don't 'feel' them biologically.",
+        "While I don't have feelings, I recognize and respond to human emotional cues!",
+        "I process emotional language patterns but don't experience emotions myself."
+      ]
+    },
+    {
+      "tag": "random_conversation_15",
+      "patterns": [
+        "What's the best advice you have?",
+        "Give me advice",
+        "Words of wisdom",
+        "Life advice",
+        "What should I know?"
+      ],
+      "responses": [
+        "Be curious, keep learning, and treat others with kindness!",
+        "Progress, not perfection. Small steps lead to big changes over time.",
+        "Listen more than you speak, and you'll learn something every day.",
+        "Take care of your mental health as much as your physical health.",
+        "The only constant is change - learn to adapt and grow with it!"
+      ]
+    }
+  ]
+}

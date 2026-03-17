@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melly - Your Chatbot Assistant</title>
+    <!-- Fixed: Use url_for for favicon too -->
+    <link rel="icon" href="{{ url_for('static', filename='images/icon1.jpeg') }}">
+    <!-- Fixed: Use url_for for CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with logo -->
+        <header class="header">
+            <div class="logo-container">
+                <!-- This one is correct -->
+                <img src="{{ url_for('static', filename='images/icon1.jpeg') }}" alt="Crane Logo" class="logo">
+                <div class="logo-text">
+                    <h1>Melly</h1>
+                    <p>Your AI Assistant</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Chat container -->
+        <div class="chat-container">
+            <!-- Welcome message -->
+            <div class="message bot-message welcome-message">
+                <div class="message-content">
+                    <div class="message-text">
+                        <p>Hi I'm <strong>Melly</strong>, would be glad to start a conversation with you :)</p>
+                    </div>
+                    <div class="message-time"></div>
+                </div>
+            </div>
+
+            <!-- Chat messages will appear here -->
+            <div id="chat-messages" class="chat-messages"></div>
+            
+            <!-- Typing indicator - initially hidden -->
+            <div id="typing-indicator" class="typing-indicator" style="display: none;">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p>Melly is typing...</p>
+            </div>
+        </div>
+
+        <!-- Input area -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="message-input" 
+                    placeholder="Type your message here..." 
+                    autocomplete="off"
+                >
+                <button id="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="input-hint">
+                <p>Press Enter to send • Type 'quit', 'exit', or 'bye' to end conversation</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed: Use url_for for JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
