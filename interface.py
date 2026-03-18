@@ -46,7 +46,7 @@ def bag_of_words(sentence):
     return np.array(bag)
 
 
-# Predict intent
+
 # Predict intent
 def predict_class(sentence):
     try:
