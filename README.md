@@ -4,13 +4,13 @@ A simple chatbot built with Python and TensorFlow Lite, deployed using Flask.
 
 Features:
 
-  Machine learning model trained on custom intents
+    Machine learning model trained on custom intents
 
-  TensorFlow Lite for efficient inference
+    TensorFlow Lite for efficient inference
 
-  Web interface with HTML, CSS, and JavaScript
+    Web interface with HTML, CSS, and JavaScript
 
-  Real-time chat responses
+    Real-time chat responses
 
 Tech Stack:
 
