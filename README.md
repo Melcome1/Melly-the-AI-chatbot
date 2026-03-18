@@ -20,7 +20,8 @@ Tech Stack:
     
       ML Libraries: NLTK, NumPy
 
-Installation
+Installation:
+
       1. Clone the repository
              git clone https://github.com/Melcome1/Melly-the-AI-chatbot.git
              cd Melly-the-AI-chatbot
