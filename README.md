@@ -14,26 +14,26 @@ Features:
 
 Tech Stack:
 
-  Backend: Python, Flask, TensorFlow Lite
-
-  Frontend: HTML, CSS, JavaScript
-
-  ML Libraries: NLTK, NumPy
+      Backend: Python, Flask, TensorFlow Lite
+    
+      Frontend: HTML, CSS, JavaScript
+    
+      ML Libraries: NLTK, NumPy
 
 Installation
-  1. Clone the repository
-     git clone https://github.com/Melcome1/Melly-the-AI-chatbot.git
-     cd Melly-the-AI-chatbot
-     
-  2.Set up virtual environment
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+      1. Clone the repository
+             git clone https://github.com/Melcome1/Melly-the-AI-chatbot.git
+             cd Melly-the-AI-chatbot
+             
+      2.Set up virtual environment
+            python -m venv venv
+            source venv/bin/activate  # On Windows: venv\Scripts\activate
+        
+      3. Install dependencies
+            pip install -r requirements.txt
     
-  3. Install dependencies
-    pip install -r requirements.txt
-
-  4.Run the application
-    python interface.py
-    
+      4.Run the application
+            python interface.py
+        
 
  
