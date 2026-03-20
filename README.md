@@ -20,6 +20,9 @@ Tech Stack:
     
       ML Libraries: NLTK, NumPy
 
+Demo video:
+    https://github.com/user-attachments/assets/6dcb5adb-23f5-4b55-8a6f-0c00a0c59725
+
 Installation:
 
       1. Clone the repository
