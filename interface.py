@@ -9,15 +9,18 @@ from ai_edge_litert.interpreter import Interpreter as tflite
 import nltk
 import os
 
+# Setup NLTK data path for Render
+nltk_data_path = '/opt/render/nltk_data'
+os.makedirs(nltk_data_path, exist_ok=True)
+nltk.data.path.append(nltk_data_path)
 
-NLTK_DATA_DIR = '/opt/render/nltk_data'
-os.makedirs(NLTK_DATA_DIR, exist_ok=True)
-nltk.data.path.append(NLTK_DATA_DIR)
-
-try:
-    nltk.data.find('tokenizers/punkt_tab/english.pickle')
-except LookupError:
-    nltk.download('punkt_tab', download_dir=NLTK_DATA_DIR)
+# Download required NLTK resources
+resources = ['punkt_tab', 'wordnet']
+for resource in resources:
+    try:
+        nltk.data.find(f'tokenizers/{resource}' if resource == 'punkt_tab' else f'corpora/{resource}')
+    except LookupError:
+        nltk.download(resource, download_dir=nltk_data_path)
 
 
 app = Flask(__name__)
