@@ -6,6 +6,19 @@ import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 from ai_edge_litert.interpreter import Interpreter as tflite
+import nltk
+import os
+
+
+NLTK_DATA_DIR = '/opt/render/nltk_data'
+os.makedirs(NLTK_DATA_DIR, exist_ok=True)
+nltk.data.path.append(NLTK_DATA_DIR)
+
+try:
+    nltk.data.find('tokenizers/punkt_tab/english.pickle')
+except LookupError:
+    nltk.download('punkt_tab', download_dir=NLTK_DATA_DIR)
+
 
 app = Flask(__name__)
 
